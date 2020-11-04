@@ -44,3 +44,7 @@ Customer is sent back from the review page to the checkout page:
 - if order total is less than $0.50 (Stripe limitation) 
 
 The module works only with USD currency.
+
+This is not designed to work with a module that removes the Review page.
+- The Stripe Checkout page is loaded in the background when viewing the Review page. As a result, navigating from Review -> Payment screen issues a webhook that shows up in Stripe as "Incomplete" when looking at All Payments in the dashboard. This is normal.
+- Two incompletes in a row indicate the customer most likely clicked the "back" link (most likely), or it could indicate the redirect is not working properly.
