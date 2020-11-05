@@ -1,5 +1,8 @@
 UC Stripe Checkout for Drupal Ubercart
 
+COMPATIBILITY
+Drupal 7.x | Ubercart 3.x
+
 ABOUT
 
 "Stripe Checkout is the quickest way to start accepting payments on Stripe. Send your customers to pay on Stripe's conversion-optimized page instead of building your own."
