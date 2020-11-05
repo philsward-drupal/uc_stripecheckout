@@ -24,6 +24,7 @@ If uc_stripecheckout is not enabled on a site:
 **Configuration**
 
 Menu: Home » Administration » Store » Configuration » Payment methods
+
 Settings: /admin/store/settings/payment/method/stripecheckout
 
 ## USAGE
