@@ -17,7 +17,8 @@ Install in the usual sites/all/modules folder
 There are no additional libraries needed
 
 If uc_stripecheckout is not enabled on a site: 
-* Install, enable, configure uc_stripecheckout as usual. 
+* Install, enable, configure uc_stripecheckout as usual.
+* Install the Stripe PHP Library in the /sites/all/libraries/stripe folder. Download from: https://github.com/stripe/stripe-php/releases
 
 **Important:** uc_stripe and uc_stripecheckout cannot be used at the same time. Details to follow below.
 
